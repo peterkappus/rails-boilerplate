@@ -1,5 +1,5 @@
 Feature: Have a homepage.
 
 	Scenario: See the homepage.
-		Given I am on the homepage
-		Then I should see "Welcome"
+		When I visit "/"
+		Then I should see "Welcome" within "h1"
