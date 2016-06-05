@@ -25,6 +25,5 @@ module Pano
 
     config.autoload_paths += %W["#{config.root}/app/validators/"]
 
-    Monetize.assume_from_symbol = true
   end
 end

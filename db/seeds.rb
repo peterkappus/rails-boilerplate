@@ -5,6 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-#Obsolete, now created via goals import
-#Group.create([{name: 'Digital'}, {name: 'Technology'}, {name: 'Operations'}, {name: 'Data'}])

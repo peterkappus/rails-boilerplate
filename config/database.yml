@@ -12,11 +12,11 @@ default: &default
 
 development:
   <<: *default
-  database: pano_development
+  database: boilerplate_development
 
 test: &test
   <<: *default
-  database: pano_test
+  database: boilerplate_test
 
 cucumber:
   <<: *test

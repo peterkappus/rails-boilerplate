@@ -1,9 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-<% 100.times do |i| %>
-user_<%=i%>:
-  name: <%=%Q{Peter Paul John Ringo George}%> <%=i%>
-  email: email<%=i%>@test.com
-<%end%>
-
-#200.times do |i| User.create!(name: %w{Peter Paul George Ringo John}.sample + " " + %w{Jones Smith West North Andrews}.sample + i.to_s, email: "email#{i}@wherever.com") end
